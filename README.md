@@ -2,15 +2,11 @@
 
 ![Terraform](https://img.shields.io/badge/Terraform-Azure-blue?logo=terraform)  
 ![Azure](https://img.shields.io/badge/Microsoft-Azure-0089D6?logo=microsoftazure&logoColor=white)  
-![IaC](https://img.shields.io/badge/Infrastructure-as-Code-green)  
+![IaC](https://img.shields.io/badge/IaC-Infrastructure%20as%20Code-green)  
 ![License](https://img.shields.io/badge/License-MIT-yellow)  
 
 This repository contains **Terraform modules and Azure Policy definitions** to enforce security and compliance baselines in Microsoft Azure.  
 All examples follow Infrastructure-as-Code (IaC) principles and can be integrated into CI/CD pipelines for **continuous compliance**.  
-
-<p align="center">
-  <img src="https://learn.microsoft.com/en-us/azure/governance/policy/media/policy-overview/policy-hero.png" alt="Azure Policy Overview" width="600"/>
-</p>
 
 ---
 
@@ -18,7 +14,7 @@ All examples follow Infrastructure-as-Code (IaC) principles and can be integrate
 
 ### 🔒 Storage & Encryption
 - **`Secure-Storage-Account.hcl`**  
-  Creates a storage account with:
+  Creates a storage account with:  
   - HTTPS-only traffic  
   - TLS 1.2 minimum  
   - Block public access  
@@ -44,10 +40,6 @@ All examples follow Infrastructure-as-Code (IaC) principles and can be integrate
 - **`Require-PrivateEndpoints-Storage.hcl`**  
   Custom Policy enforcing that all Storage Accounts must use private endpoints.  
 
-<p align="center">
-  <img src="https://learn.microsoft.com/en-us/azure/architecture/example-scenario/policy/media/policy-enforcement.png" alt="Azure Policy Enforcement" width="500"/>
-</p>
-
 ---
 
 ### 🏷️ Governance & Tagging
@@ -62,10 +54,6 @@ All examples follow Infrastructure-as-Code (IaC) principles and can be integrate
 ### 📊 Logging & Monitoring
 - **`Diagnostic-Settings-To-LAW.hcl`**  
   Configures diagnostic settings for Storage Accounts (and other resources) to send logs and metrics to a centralized Log Analytics Workspace.  
-
-<p align="center">
-  <img src="https://learn.microsoft.com/en-us/azure/azure-monitor/essentials/media/diagnostic-settings/diagnostic-settings.png" alt="Azure Diagnostic Settings" width="600"/>
-</p>
 
 ---
 
