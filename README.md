@@ -25,9 +25,6 @@ Each configuration encodes compliance requirements so that misconfigurations are
 | `Diagnostic-Settings-To-LAW.tf` | Forward logs/metrics to Log Analytics | Centralizes monitoring, enables detection of anomalous activity. | [CVE-2020-0601](https://nvd.nist.gov/vuln/detail/CVE-2020-0601) (CurveBall) — detection possible with good telemetry |
 
 ---
-
-## 🔒 Why These Controls Are Important
-
 - **Storage & Encryption**: Misconfigured storage accounts are a top cloud breach vector (public blobs → data leaks). Enforcing HTTPS, TLS, and private endpoints reduces this risk.  
 - **Key Vault Protection**: Purge protection stops attackers from deleting audit trails and keys during an incident.  
 - **Azure SQL Security**: TDE + private access ensures databases remain confidential and available only from internal networks.  
