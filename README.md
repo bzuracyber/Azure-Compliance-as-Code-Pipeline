@@ -1,4 +1,4 @@
-# 🚀 Azure Compliance-as-Code with Terraform  
+# Azure Compliance-as-Code with Terraform  
 
 ![Terraform](https://img.shields.io/badge/Terraform-Azure-blue?logo=terraform)  
 ![Azure](https://img.shields.io/badge/Microsoft-Azure-0089D6?logo=microsoftazure&logoColor=white)  
